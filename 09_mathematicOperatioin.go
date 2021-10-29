@@ -47,6 +47,15 @@ func main() {
 	nilai := 10
 	fmt.Println(nilai)
 
+	// contoh Augmented Assigments
 	nilai += 2
 	fmt.Println(nilai)
+
+	// contoh unary ++
+	nilai++
+	fmt.Println(nilai)
+
+	// contoh Unary Operator membalik nilai boolean
+	married := true
+	fmt.Println(!married)
 }
